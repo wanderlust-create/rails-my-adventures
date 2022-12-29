@@ -3,19 +3,20 @@ require:
 
 AllCops:
   Exclude:
-    - 'app/channels/application_cable/*'
-    - 'bin/**/*'
-    - 'log/**/*'
-    - 'tmp/**/*'
-    - 'vendor/**/*'
-    - 'config/application.rb'
-    - 'config/boot.rb'
-    - 'config/environments/**/*'
-    - 'config/environment.rb'
-    - 'config/puma.rb'
-    - 'config/spring.rb'
-    - 'config/initializers/**/*'
-    - 'spec/rails_helper.rb'
+    - "app/channels/application_cable/*"
+    - "bin/**/*"
+    - "log/**/*"
+    - "tmp/**/*"
+    - "vendor/**/*"
+    - "config/application.rb"
+    - "config/boot.rb"
+    - "config/environments/**/*"
+    - "config/environment.rb"
+    - "config/puma.rb"
+    - "config/spring.rb"
+    - "config/initializers/**/*"
+    - "spec/rails_helper.rb"
+    - "db/schema.rb"
   NewCops: enable
 
 Style/FrozenStringLiteralComment:
